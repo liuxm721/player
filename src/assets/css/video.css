@@ -1,0 +1,85 @@
+.video-js {
+  font-size: 12px;
+}
+
+.vjs-title {
+  top: 0;
+  justify-content: center !important;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.vjs-show {
+  display: block !important;
+}
+
+.vjs-control-bar,
+.vjs-volume-vertical,
+.vjs-progress-control {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.vjs-control-bar {
+  justify-content: space-between;
+}
+
+.vjs-volume-vertical {
+  top: -11em;
+}
+
+.vjs-duration {
+  padding-left: 0 !important;
+}
+
+.vjs-live-control {
+  display: block !important;
+}
+
+.vjs-current-time {
+  padding-right: 0 !important;
+}
+
+.vjs-time-divider {
+  padding: 0 !important;
+  text-align: center;
+}
+
+.vjs-volume-level:before {
+  left: -0.4em !important;
+}
+
+.vjs-play-progress {
+  background-color: #23ade5;
+}
+
+.vjs-control-left,
+.vjs-control-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vjs-progress-control {
+  position: absolute !important;
+  bottom: 100%;
+  width: 100% !important;
+}
+
+.vjs-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem !important;
+  transform: translate(-50%, -50%);
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
